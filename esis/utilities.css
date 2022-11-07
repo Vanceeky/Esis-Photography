@@ -1,0 +1,39 @@
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: #a3a3a3;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#btn{
+    border-radius: 24px;
+    background-color: #ba71da;
+    padding: 5px;
+}
+
